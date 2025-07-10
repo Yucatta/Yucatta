@@ -5,7 +5,7 @@ import ImageSlider from "@/Components/ImageSlider";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-wrap w-full h-full mt-15 justify-evenly items-center">
+      <div className="flex flex-wrap w-full h-full mt-5 justify-evenly items-center">
         <div className="flex flex-col mt-5 items-center w-120 justify-center">
           <div className="text-4xl font-bold mb-5">EU4 Guessr</div>
           <ImageSlider
