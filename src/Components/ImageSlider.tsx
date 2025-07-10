@@ -31,7 +31,7 @@ export default function ImageSlider({ filename, numberofimages }: Props) {
   }, [currentimg]);
   return (
     <>
-      <div className="flex justify-center h-[270px] items-center">
+      <div className="flex justify-center h-[270px] items-center select-none">
         <div className="flex  w-120 absolute h-auto overflow-hidden justify-center grow-0 shrink-0  ">
           {Array(numberofimages)
             .fill(0)
@@ -56,14 +56,14 @@ export default function ImageSlider({ filename, numberofimages }: Props) {
               transition-all duration-200 ease-in-out hover:bg-white/5 left-0"
             onClick={decraseindex}
           >
-            {"<-"}
+            <img src={"/logos/leftarrow.svg"} className="w-3"></img>
           </div>{" "}
           <div
             className="cursor-pointer w-7 h-full flex justify-center items-center absolute
               transition-all duration-200 ease-in-out hover:bg-white/10 right-0"
             onClick={increaseindex}
           >
-            {"->"}
+            <img src={"/logos/rightarrow.svg"} className="w-3"></img>
           </div>
           <div className=" w-auto gap-x-2 flex-row absolute bottom-0 flex ">
             {Array(numberofimages)

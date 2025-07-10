@@ -38,7 +38,7 @@ export default function Home() {
                 the map, along with details of provinces.
               </div>
               <a
-                href="https://eu4guessr.yucatta.com/"
+                href="https://eu4statle.yucatta.com/"
                 className="hover:underline text-blue-400 hover:text-blue-600 cursor-pointer w-2/12"
               >
                 Click Here to Play
