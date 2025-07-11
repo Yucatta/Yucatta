@@ -17,7 +17,6 @@ const Header = () => {
         >
           Games
         </Link>{" "}
-        {/* <a href="https://github.com/Yucatta" className="w-10 h-10"></a> */}
       </div>
       <div>
         <a href="https://github.com/Yucatta">
